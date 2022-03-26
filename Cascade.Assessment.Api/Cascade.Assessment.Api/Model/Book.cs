@@ -26,7 +26,7 @@ namespace Cascade.Assessment.Api.Model
             get
             {
                 var citation = $"{AuthorLastName}, {AuthorFirstName}. \"{Title}\".{Environment.NewLine}";
-                citation += BookEdition.Length > 0 ? $"{BookEdition}, " : "";
+                citation += (BookEdition?.Length) > 0 ? $"{BookEdition}, " : "";
                 citation += $"{Publisher}, {PublishedDate.Year}, pp {MinimumPages}-{MaximumPages}.";
                 return citation;
             }
@@ -36,8 +36,8 @@ namespace Cascade.Assessment.Api.Model
             get
             {
                 var citation = $"{AuthorLastName}, {AuthorFirstName}. {Title}.";
-                citation += SubTitle.Length > 0 ? $":{SubTitle}." : "";
-                citation += BookEdition.Length > 0 ? $":{BookEdition}." : "";
+                citation += (SubTitle?.Length) > 0 ? $":{SubTitle}." : "";
+                citation += (BookEdition?.Length) > 0 ? $":{BookEdition}." : "";
                 citation += $"{PublishedLocation}:{Publisher}, {PublishedDate.Year}.";
                 return citation;
             }
