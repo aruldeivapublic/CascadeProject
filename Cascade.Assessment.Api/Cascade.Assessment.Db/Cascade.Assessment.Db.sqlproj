@@ -71,8 +71,8 @@
     <Build Include="dbo\Stored Procedures\usp_GetBooks.sql" />
     <Build Include="dbo\Stored Procedures\usp_GetTotalBooksPrice.sql" />
     <Build Include="dbo\Stored Procedures\usp_AddBooks.sql" />
-    <Build Include="Scripts\CreateDb.sql" />
-    <Build Include="Scripts\SetupDb.sql" />
+    <None Include="Scripts\CreateDb.sql" />
+    <None Include="Scripts\SetupDb.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Cascade.Assessment.Db.refactorlog" />
