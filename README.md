@@ -12,8 +12,12 @@
 ##### Source Code Details
       Visual Studio 2019 Solution 'Cascade.Assessment.Api.sln' contains two projects Cascade.Assessment.Api.csproj and Cascade.Assessment.Db.sqlproj
       
-      Cascade.Assessment.Api.csproj is .Net 5.0 Api Project
+      Cascade.Assessment.Api.csproj is .Net Core 5.0 Api Project
       
       Cascade.Assessment.Db.sqlproj is a database project and that can be used to publish the database, tables and stored procs. 
+
+##### Large List of Books to saved to database in One call
+      
+      POST call with array of Books object will save the books in the database in one call
       
       
