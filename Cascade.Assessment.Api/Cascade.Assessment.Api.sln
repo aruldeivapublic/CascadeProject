@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cascade.Assessment.Api", "Cascase.Assessment.Api\Cascade.Assessment.Api.csproj", "{135294F2-6D8B-4AE6-9521-1613036264DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cascade.Assessment.Api", "Cascade.Assessment.Api\Cascade.Assessment.Api.csproj", "{135294F2-6D8B-4AE6-9521-1613036264DB}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Cascade.Assessment.Db", "Cascade.Assessment.Db\Cascade.Assessment.Db.sqlproj", "{4238DCF9-3D5A-4884-85D9-A859CDD810D9}"
 EndProject
